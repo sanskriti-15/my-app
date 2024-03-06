@@ -1,0 +1,37 @@
+.navbar-container {
+    margin: 0 auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .nav-links1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 70px; /* Adjust the gap to change the distance between items */
+  }
+  
+  .nav-links li {
+    margin: 0;
+  }
+  
+  .nav-links2 {
+    list-style-type: none;
+    margin: 20px 0 0; /* Adjust the top margin to add custom gap */
+    padding: 0;
+    display: flex;
+    gap: 10px; /* Adjust the gap to change the distance between items */
+  }
+  
+  .nav-links2 li {
+    margin: 0;
+  }
+  
+  .nav-links li:hover,
+  .nav-links2 li:hover {
+    cursor: pointer;
+    color: #ddd;
+  }
+  

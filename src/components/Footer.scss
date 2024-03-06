@@ -1,0 +1,56 @@
+$footer-color: #212731;
+
+footer {
+  background-color: $footer-color;
+  padding: 20px 0;
+ 
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+
+  .footer-column {
+    flex: 1;
+    margin-right: 20px;
+
+    h3 {
+      color: white;
+      font-size: 16px;
+      margin-bottom: 10px;
+      display: flex; /* Use flexbox for alignment */
+  align-items: center; /* Align items vertically */
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 5px;
+        color: #D1D6DA;
+        cursor: pointer;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+
+
+
+.footer-column h3 svg {
+  margin-left: 5px; /* Add margin to separate text and icon */
+}

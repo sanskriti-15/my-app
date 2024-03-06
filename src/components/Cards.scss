@@ -1,0 +1,24 @@
+.related-deals {
+  font-size: 35px; /* Adjust font size as needed */
+  // font-weight: bold; /* Increase font weight */
+  margin-bottom: 30px;
+  line-height: 44px; /* Add bottom margin */
+  color: #2C384A;
+  // margin-right: auto ;
+  display: flex;
+  justify-content: left;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; /* Allow cards to wrap to the next line if needed */
+  justify-content: flex-start; /* Align cards to the left */
+}
+
+.card-container .card {
+  display: flex; /* Set display to flex to align cards horizontally */
+  margin-right: 10px; /* Adjust spacing between cards */
+  margin-bottom: 10px; 
+  flex: 1 0 calc(33.33% - 10px);/* Add bottom margin to each card */
+}

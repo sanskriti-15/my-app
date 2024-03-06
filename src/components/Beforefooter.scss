@@ -1,0 +1,48 @@
+.beforefooter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px; /* Add margin from the top */
+  margin-bottom: 30px;
+}
+
+.left-content {
+  margin-right: auto; /* Pushes this content to the left */
+}
+
+.right-content {
+  display: flex;
+  align-items: center;
+}
+
+.signup-text {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 44px;
+  color: #333; /* Example color */
+  width: 398px; /* Set width */
+  height: 88px; /* Set height */
+  color: #333; /* Example color */
+}
+
+.input-field {
+  border: 1px solid #ccc; /* Example border color */
+  border-radius: 4px 0 0 4px; /* Rounded corners on the left side */
+  padding: 8px 12px;
+}
+
+.signup-button {
+  background-color: #1B88F4
+  ; /* Example background color */
+  color: #fff; /* Example text color */
+  border: none;
+  border-radius: 0 12px 12px 0; /* Rounded corners on all sides except the left side */
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+  background-color: #0056b3; /* Example hover background color */
+}
